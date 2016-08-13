@@ -1,6 +1,6 @@
 package com.weather;
 
-public class Weather {
+public class Forecast {
 
     public double getTemperature() {
         return temperature;
