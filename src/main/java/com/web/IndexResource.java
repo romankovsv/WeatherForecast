@@ -1,5 +1,5 @@
 package com.web;
-import com.weather.Forecast;
+
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -12,7 +12,7 @@ public class IndexResource {
 
     /*@GET
     @Path("/{city}/{region}")
-    public static Forecast getIndex(@PathParam("city") String city,
+    public static  getIndex(@PathParam("city") String city,
         @PathParam("region") String region){
 
         return getWeather(city, region);

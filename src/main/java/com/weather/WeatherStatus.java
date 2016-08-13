@@ -10,4 +10,8 @@ public class WeatherStatus {
     public double getTemperature(){
         return temperature;
     }
+
+    public void setTemperature(double temperature){
+        this.temperature = temperature;
+    }
 }
